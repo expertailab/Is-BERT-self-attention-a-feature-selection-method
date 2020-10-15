@@ -61,5 +61,6 @@ Visualization  of  average  weights  in  the  self  attention  heads  of  the  l
   Stability of the features measured using Jackard similarity coefficient.
 </p>
 <p align="center">
-  <img src="./images/Figure 3.PNG" title=""/></br>
+  <img src="./images/Figure 3.PNG" title="Classifiers performance using distinct feature sets and number of features"/></br>
+  Classifiers performance using distinct feature sets and number of features. x axis is the number of features used to train each classifier.
 </p>
