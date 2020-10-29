@@ -16,8 +16,10 @@ It includes full-size images, tables and jupyter notebooks with the experiments 
 # Jupyter notebooks
 In the __notebooks__ directory of this repository we release self-contained notebooks, including dataset and required libraries, that allows to reproduce the following experiments: 
 
-* Fine-tune BERT, SciBERT and BioBERT to classify research articles into multiple research fields in the ANZRSC taxonomy
+* Fine-tune BERT, SciBERT and BioBERT to classify research articles into multiple research fields in the ANZRSC taxonomy.
+ 
    [BertModels4ArticleClassification.ipynb](./notebooks/BertModels4ArticleClassification.ipynb)
+   
 * Visualize self-attention in the last layer of the BERT models
 * Get lists of most attended words above average in the last layer of the BERT models
 
