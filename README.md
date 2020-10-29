@@ -21,7 +21,12 @@ In the __notebooks__ directory of this repository we release self-contained note
    [BertModels4ArticleClassification.ipynb](./notebooks/BertModels4ArticleClassification.ipynb)
    
 * Visualize self-attention in the last layer of the BERT models
+
+   [BertModelsAttentionHeadsVisualization.ipynb](./notebooks/BertModelsAttentionHeadsVisualization.ipynb)
+
 * Get lists of most attended words above average in the last layer of the BERT models
+
+   [BertModelsAttendedWordsOverAverage.ipynb](./notebooks/BertModelsAttendedWordsOverAverage.ipynb)
 
 Note that while this notebooks can be run in _google colab_ with a subset of the articles, to train on the full set of articles used in the paper we advise to use other infrastructure. 
 
