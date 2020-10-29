@@ -1,14 +1,29 @@
-# Is BERT self-attention a feature selection method? A case study in classification of scholarly communications
-This repository includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Is BERT self-attention a feature selection method? A case study in classification of scholarly communications** submitted for revision to **ECIR 2021**. The following subjects presented in the paper are covered here:
+# Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?
+**This repository is work in progress.**
 
-* [Fine-tuning Language Models for Text Classification](#fine-tuning-language-models-for-text-classification)
+It includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?** submitted for revision to **ECIR 2021**. 
+
+# Table of content
+
+* [Jupyter Notebooks](#Jupyter-notebooks)
+* [Fine-tuning language models for text classification](#fine-tuning-language-models-for-text-classification)
   + [Experimental results](#experimental-results)
 * [Exploring self-attention heads](#exploring-self-attention-heads)
-* [Feature Selection](#feature-selection)
+* [Feature selection](#feature-selection)
   + [Domain knowledge](#domain-knowledge)
   + [Feature evaluation](#feature-evaluation)
+  
+# Jupyter notebooks
+In the __notebooks__ directory of this repository we release self-contained notebooks, including dataset and required libraries, that allows to reproduce the following experiments: 
 
-## Fine-tuning language models for Text Classification
+* Fine-tune BERT, SciBERT and BioBERT to classify research articles into multiple research fields in the ANZRSC taxonomy
+   [BertModels4ArticleClassification.ipynb](./notebooks/BertModels4ArticleClassification.ipynb)
+* Visualize self-attention in the last layer of the BERT models
+* Get lists of most attended words above average in the last layer of the BERT models
+
+Note that while this notebooks can be run in _google colab_ with a subset of the articles, to train on the full set of articles used in the paper we advise to use other infrastructure. 
+
+## Fine-tuning language models for text classification
 <p align="center">
   <img src="./images/Table 1.PNG" title="Language models pre-training information"/></br>
   Language models pre-training information.
@@ -36,7 +51,7 @@ Visualization  of  average  weights  in  the  self  attention  heads  of  the  l
   Most attended words above average attention in the fine-tuned models.
 </p>
 
-## Feature Selection
+## Feature selection
 
 <p align="center">
   <img src="./images/Table 4.PNG" title="Word overlap"/></br>
