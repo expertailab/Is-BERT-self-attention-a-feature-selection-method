@@ -1,6 +1,11 @@
 # Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?
 
-It includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?** submitted for revision to **ECIR 2021**. 
+The annotation and classification of scientific literature is a crucial task to make scientific knowledge easily discoverable, accessible, and reusable. We address this multilabel classification task using **BERT** and its different flavors specialized in the scientific domain: **BioBert** and **SciBERT**. In our experiments, using papers from **Springer Nature SciGraph**, we confirm that using transformers to train scientific classifiers generally results in greater accuracies compared to linear classifiers(e.g., LinearSVM, FastText)
+
+To shed light on BERT internals, we analyze the self-attention mechanism inherent of the transformer architecture. Our findings show that **the last layer of BERT attends to words that are semantically relevant for the scientific fields associated with each publication** (see [Exploring self-attention heads](#exploring-self-attention-heads)). This observation suggests that self-attention actually performs some type of feature selection for the fine-tuned model.
+
+This repository includes jupyter notebooks to reproduce the experiments reported in the paper **Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?** accepted in the *43rd European Conference on Information Retrieval* **ECIR 2021**. In addition, we present some of the paper highlights.
+
 
 # Table of content
 
@@ -12,7 +17,7 @@ It includes full-size images, tables and jupyter notebooks with the experiments 
   + [Domain knowledge](#domain-knowledge)
   + [Feature evaluation](#feature-evaluation)
   
-# Jupyter notebooks
+## Jupyter notebooks
 In the __notebooks__ directory of this repository we release self-contained notebooks, including dataset and required libraries, that allows to reproduce the following experiments: 
 
 * Fine-tune BERT, SciBERT and BioBERT to classify research articles into multiple research fields in the ANZRSC taxonomy.
@@ -28,6 +33,8 @@ In the __notebooks__ directory of this repository we release self-contained note
    [BertModelsAttendedWordsOverAverage.ipynb](./notebooks/BertModelsAttendedWordsOverAverage.ipynb)
 
 Note that while this notebooks can be run in _google colab_ with a subset of the articles, to train on the full set of articles used in the paper we advise to use other infrastructure. 
+
+To run the notebooks in google colab go to *https://colab.reasearch.google.com* and use the option *open notebook* from *GitHub* where you can copy and paste the full url of each notebook.
 
 ## Fine-tuning language models for text classification
 <p align="center">
@@ -85,3 +92,6 @@ Visualization  of  average  weights  in  the  self  attention  heads  of  the  l
   <img src="./images/Figure 3.PNG" title="Classifiers performance using distinct feature sets and number of features"/></br>
   Classifiers performance using distinct feature sets and number of features. x axis is the number of features used to train each classifier.
 </p>
+
+
+
