@@ -1,5 +1,4 @@
 # Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?
-**This repository is work in progress.**
 
 It includes full-size images, tables and jupyter notebooks with the experiments reported in the paper **Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?** submitted for revision to **ECIR 2021**. 
 
