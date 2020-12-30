@@ -60,7 +60,7 @@ Below we present the evaluation of the classifiers for 22 first level categories
 ## Exploring self-attention heads
  The following images depict the mean weights of the 12 self-attention heads in the last hidden state of the fine-tuned models for two papers titled _BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding_, and _A universal long-term flu vaccine may not prevent severe epidemics_.
 
- The plots clearly show the so-called vertical pattern, where a few tokens receive most of the attention, such as **training, deep, transformer, language**, and **understanding** in the first sentence, and **flu, vaccine, prevent, severe** and **epidemic** in the second. We does not include in the plots ``<CLS>`` or ``<SEP>``.
+ The plots clearly show the so-called vertical pattern, where a few tokens receive most of the attention, such as **training, deep, transformer, language**, and **understanding** in the first sentence, and **flu, vaccine, prevent, severe** and **epidemic** in the second. We do not include in the plots ``<CLS>`` or ``<SEP>``.
  
 | <img src="./images/finetuned-bert-2.png" title="BERT" /><p align="center"><b>BERT</b></p>  | <img src="./images/finetuned-bert-3.png" title="BERT" /><p align="center"><b>BERT</b></p> |
 |:---:|:---:|
