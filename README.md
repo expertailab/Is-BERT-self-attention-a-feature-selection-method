@@ -9,13 +9,14 @@ This repository includes jupyter notebooks to reproduce the experiments reported
 
 # Table of content
 
-* [Jupyter Notebooks](#Jupyter-notebooks)
+* [Jupyter notebooks](#Jupyter-notebooks)
 * [Fine-tuning language models for text classification](#fine-tuning-language-models-for-text-classification)
   + [Experimental results](#experimental-results)
 * [Exploring self-attention heads](#exploring-self-attention-heads)
 * [Feature selection](#feature-selection)
   + [Domain knowledge](#domain-knowledge)
   + [Feature evaluation](#feature-evaluation)
+* [Citation] (#citation)
   
 ## Jupyter notebooks
 In the __notebooks__ directory of this repository we release self-contained notebooks, including dataset and required libraries, that allows to reproduce the following experiments: 
@@ -123,3 +124,21 @@ To measure the stability of the features we compute the mean Jaccard coefficient
 We observe that traditional feature selection methods like chi-square and information gain mainly help to learn more accurate classifiers than the set of most attended words by the language models. This observation clearly indicates that the success of BERT models in this task is not only driven by the self-attention mechanism but also by the contextualized outputs of the transformer, which are the input of the added classification layer.
 
 
+## Citation
+To reference this work use the following citation:
+
+```
+@ARTICLE{2021arXiv2101.08114,
+       author = {Andres Garcia-Silva and Jose Manuel Gomez-Perez},
+        title = "{Classifying Scientific Publications with BERT -- Is Self-Attention a Feature Selection Method?}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computation and Language},
+         year = 2021,
+        month = jan,
+          eid = {arXiv:2101.08114},
+        pages = {arXiv:2101.08114},
+archivePrefix = {arXiv},
+       eprint = {2101.08114},
+ primaryClass = {cs.CL},       
+}
+```
