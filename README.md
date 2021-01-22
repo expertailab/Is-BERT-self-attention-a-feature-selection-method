@@ -16,7 +16,7 @@ This repository includes jupyter notebooks to reproduce the experiments reported
 * [Feature selection](#feature-selection)
   + [Domain knowledge](#domain-knowledge)
   + [Feature evaluation](#feature-evaluation)
-* [Citation] (#citation)
+* [Citation](#citation)
   
 ## Jupyter notebooks
 In the __notebooks__ directory of this repository we release self-contained notebooks, including dataset and required libraries, that allows to reproduce the following experiments: 
