@@ -128,17 +128,29 @@ We observe that traditional feature selection methods like chi-square and inform
 To reference this work use the following citation:
 
 ```
-@ARTICLE{2021arXiv2101.08114,
-       author = {Andres Garcia-Silva and Jose Manuel Gomez-Perez},
-        title = "{Classifying Scientific Publications with BERT -- Is Self-Attention a Feature Selection Method?}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Computation and Language},
-         year = 2021,
-        month = jan,
-          eid = {arXiv:2101.08114},
-        pages = {arXiv:2101.08114},
-archivePrefix = {arXiv},
-       eprint = {2101.08114},
- primaryClass = {cs.CL},       
+@inproceedings{DBLP:conf/ecir/Garcia-SilvaG21,
+  author    = {Andr{\'{e}}s Garc{\'{\i}}a{-}Silva and
+               Jos{\'{e}} Manu{\'{e}}l G{\'{o}}mez{-}P{\'{e}}rez},
+  editor    = {Djoerd Hiemstra and
+               Marie{-}Francine Moens and
+               Josiane Mothe and
+               Raffaele Perego and
+               Martin Potthast and
+               Fabrizio Sebastiani},
+  title     = {Classifying Scientific Publications with {BERT} - Is Self-attention
+               a Feature Selection Method?},
+  booktitle = {Advances in Information Retrieval - 43rd European Conference on {IR}
+               Research, {ECIR} 2021, Virtual Event, March 28 - April 1, 2021, Proceedings,
+               Part {I}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12656},
+  pages     = {161--175},
+  publisher = {Springer},
+  year      = {2021},
+  url       = {https://doi.org/10.1007/978-3-030-72113-8\_11},
+  doi       = {10.1007/978-3-030-72113-8\_11},
+  timestamp = {Wed, 07 Apr 2021 16:01:39 +0200},
+  biburl    = {https://dblp.org/rec/conf/ecir/Garcia-SilvaG21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
