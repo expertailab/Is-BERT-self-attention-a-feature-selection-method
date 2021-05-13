@@ -129,8 +129,8 @@ To reference this work use the following citation:
 
 ```
 @inproceedings{DBLP:conf/ecir/Garcia-SilvaG21,
-  author    = {Andr{\'{e}}s Garc{\'{\i}}a{-}Silva and
-               Jos{\'{e}} Manu{\'{e}}l G{\'{o}}mez{-}P{\'{e}}rez},
+  author    = {Andres Garcia{-}Silva and
+               Jose Manuel Gomez{-}Perez},
   editor    = {Djoerd Hiemstra and
                Marie{-}Francine Moens and
                Josiane Mothe and
