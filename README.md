@@ -36,7 +36,7 @@ In the __notebooks__ directory of this repository we release self-contained note
 ### Running the notebooks in Colaboratory
 While these notebooks can be run in _google colaboratory_ with a subset of the articles, to train on the full set of articles used in the paper we advise to use other infrastructure. 
 
-To run the notebooks in Colaboratory go to *https://colab.reasearch.google.com* and use the option *open notebook* from *GitHub* where you can copy and paste the full url of each notebook.
+To run the notebooks in Colaboratory go to *https://colab.research.google.com* and use the option *open notebook* from *GitHub* where you can copy and paste the full url of each notebook.
 
 ## Fine-tuning language models for text classification
 
